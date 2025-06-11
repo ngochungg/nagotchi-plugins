@@ -65,7 +65,7 @@ class enable_deauthV2(plugins.Plugin):
                 pos = self.options['position'].split(',')
                 pos = [int(x.strip()) for x in pos]
             else:
-                pos = (0,36,30,59)
+                pos = (160, 109, 30, 59)
 
             
             ui.add_element('deauth_count', LabeledValue(color=BLACK, label='D', value='', position=pos,
