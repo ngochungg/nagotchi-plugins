@@ -40,9 +40,6 @@ class DisplayPassword(plugins.Plugin):
         elif ui.is_inky():
             h_pos = (0, 83)
             v_pos = (165, 54)
-        elif ui.is_waveshare27inch():
-            h_pos = (0, 153)
-            v_pos = (216, 122)
         else:
             h_pos = (0, 91)
             v_pos = (180, 61)
